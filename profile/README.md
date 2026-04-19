@@ -93,6 +93,7 @@ curl -s -H "Authorization: Bearer $API_KEY" \
 | Repo | Description |
 | ---- | ----------- |
 | [microquery-agent](https://github.com/microqueryhq/microquery-agent) | Sample autonomous agent — registers, deposits USDC via EIP-2612 permit, discovers datasets, runs queries, monitors balance |
+| [microquery-agent-x402](https://github.com/microqueryhq/microquery-agent-x402) | x402 variant — no registration needed, pays via EIP-3009 `TransferWithAuthorization`; supports per-query challenge-response or upfront deposit mode |
 
 ## Links
 
