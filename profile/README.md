@@ -58,20 +58,20 @@ on first query, no API key or wallet required.
 | BTC Outputs | 115 GB | `btc` · `outputs` |
 | BTC Blocks | 6.6 GB | `btc` · `blocks` |
 | *Blockchain — Base L2* | | |
-| Base Transactions | — | `base` · `transactions` |
-| Base Transfers | — | `base` · `transfers` |
-| Base Blocks | — | `base` · `blocks` |
+| Base Transactions | 67 GB | `base` · `transactions` |
+| Base Transfers | 70 GB | `base` · `transfers` |
+| Base Blocks | 600 MB | `base` · `blocks` |
 | *DeFi* | | |
 | DeFi TVL history | 365 MB | `defi` · `tvl` |
 | DeFi Protocols | 2 MB | `defi` · `protocols` |
 | *Biomedical* | | |
 | PubMed / MEDLINE | 138 GB | `pubmed` · `baseline` |
 | FDA FAERS | 6.5 GB | `fda` · `faers` |
-| ClinVar | 2.0 GB | `clinvar` · `variants` |
+| ClinVar | 2.1 GB | `clinvar` · `variants` |
 | ClinicalTrials | 700 MB | `clinicaltrials` · `studies` |
 | FDA Orange Book | 5 MB | `fda` · `orangebook` |
 | *Genomics* | | |
-| GWAS Associations | — | `gwas` · `associations` |
+| GWAS Associations | 300 MB | `gwas` · `associations` |
 | ClinPGx Clinical Variants | — | `clinpgx` · `clinical_variants` |
 | ClinPGx Drug Labels | — | `clinpgx` · `drug_labels` |
 | ClinPGx Guidelines | — | `clinpgx` · `guidelines` |
@@ -79,21 +79,21 @@ on first query, no API key or wallet required.
 | Illumina GDA PGx | — | `illumina` · `gda_pgx` |
 | Illumina GSA PGx | — | `illumina` · `gsa_pgx` |
 | *Financial / Government* | | |
-| FEC Campaign Finance | 35 GB | `fec` · `contributions` |
+| FEC Campaign Finance | 37 GB | `fec` · `contributions` |
 | SEC EDGAR | 6.2 GB | `sec` · `edgar` |
-| FRED Economic Series | 136 MB | `fred` · `series` |
+| FRED Economic Series | 16 MB | `fred` · `series` |
 | OFAC / BIS Sanctions | 8 MB | `sanctions` · `entities` |
 | FHFA House Prices | — | `fhfa` · `hpi` |
-| NADAC Drug Prices | — | `nadac` · `prices` |
-| World Bank Commodities | — | `worldbank` · `commodity_prices` |
+| NADAC Drug Prices | 800 MB | `nadac` · `prices` |
+| World Bank Commodities | 700 MB | `worldbank` · `commodity_prices` |
 | *Security / Dev* | | |
 | NVD / CVE | 700 MB | `nvd` · `cve` |
 | OSV Advisories | 400 MB | `osv` · `advisories` |
-| MalwareBazaar | — | `malwarebazaar` · `samples` |
+| MalwareBazaar | 400 MB | `malwarebazaar` · `samples` |
 | End-of-Life | 1 MB | `eol` · `cycles` |
 | *Research* | | |
-| arXiv | 3.6 GB | `arxiv` · `papers` |
-| Open Food Facts | — | `openfoodfacts` · `products` |
+| arXiv | 4 GB | `arxiv` · `papers` |
+| Open Food Facts | 400 MB | `openfoodfacts` · `products` |
 
 Call `GET /v1/databases` for the live schema including field names and
 partition keys.
